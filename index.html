@@ -1,0 +1,80 @@
+<!DOCTYPTE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Set Time Out</title>
+		<link rel="stylesheet" href="css/css.css" />
+    </head>
+
+    <body>
+
+        <audio class="sound" preload="auto">
+	       <source src="audio/background_sound.mp3">
+        </audio>
+
+        <div id="storyBoard">
+
+            <div class="frame frame1 currentFrame">
+                <div class="layer">
+                    <div class="btn playbutton"></div>
+                </div>
+            </div>
+
+            <div class="frame frame2">
+                <div class="layer">
+                    <div class="btn soundbtn soundmute"></div>
+                </div>
+            </div>
+
+            <div class="frame frame3">
+                <div class="layer">
+                    <img class="titleImage" src="img/title.png" alt=""/>
+                </div>
+                <div class="layer">
+                    <div class="btn soundbtn soundmute"></div>
+                </div>
+            </div>
+
+            <div class="frame frame4">
+                <div class="layer">
+                    <img class="backgroundImage" src="img/background.png" alt=""/>
+                </div>
+                <div class="layer">
+                    <div class="characterBox">
+                        <img class="characterImage" src="img/liondad.png" alt=""/>
+                        <img class="characterImage" src="img/lionsimba.png" alt=""/>
+                    </div>
+                </div>
+                <div class="layer">
+                    <div class="btn soundbtn soundmute"></div>
+                </div>
+            </div>
+
+            <div class="frame frame5">
+                <div class="layer">
+                    <img class="backgroundImage" src="img/background.png" alt=""/>
+                </div>
+                <div  class="layer credit">
+                    <div>
+                        <h3>-By</h3>
+                        <h3>Elin Abrahamsson</h3>
+                        <h3>Jaber Ibne Mahboob</h3>
+                    </div>
+                    <div>
+                        <h3><a href="files/lionking.pdf" target="_blank">Story board</a></h3>
+                    </div>
+                    <div>
+                        <h3><a href="files/sequence_diagram.pdf" target="_blank">Sequence Diagram</a></h3>
+                    </div>
+                    <div class="btn repeatbutton"></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="js/js.js"></script>
+    </body>
+
+</html>
